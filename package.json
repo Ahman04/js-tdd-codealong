@@ -10,13 +10,24 @@
   "license": "See LICENSE.md file",
   "type": "module",
   "devDependencies": {
-    "@babel/preset-env": "^7.16.5",
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
     "@types/jest": "^27.0.3",
-    "jest": "^27.4.5"
+    "babel-jest": "^29.7.0",
+    "jest": "^27.5.1"
   },
   "jest": {
     "transform": {
       "^.+\\.[t|j]sx?$": "babel-jest"
     }
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahman04/js-tdd-codealong.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Ahman04/js-tdd-codealong/issues"
+  },
+  "homepage": "https://github.com/Ahman04/js-tdd-codealong#readme"
 }
